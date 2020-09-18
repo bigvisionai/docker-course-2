@@ -3,7 +3,7 @@ This image consists of CPP and Python3 installation of OpenCV-4.4.0. Additionall
 
 # How to run
 ### Our favourite run command is:
-#### `docker run -it --rm --mount type=bind,source="$(pwd)"/work,target=/work -p 8888:8888 opencvcourses/course-1:latest`
+#### `docker run -it --rm --mount type=bind,source="$(pwd)"/work,target=/work -p 8888:8888 opencvcourses/course-2:latest`
 
 `-it` starts an interactive shell. This switch is always needed to start the container. Otherwise, it will start and stop instantly.
 <br>
@@ -18,7 +18,7 @@ This image consists of CPP and Python3 installation of OpenCV-4.4.0. Additionall
 In this configuration, you can use all the functions of our image
 
 ### Minimal run command:
-#### `docker run -it opencvcourses/course-1:latest`
+#### `docker run -it opencvcourses/course-2:latest`
 
 This will start the container with an interactive shell. This is the most basic command to run the image.
 <br>
