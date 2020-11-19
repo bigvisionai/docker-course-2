@@ -1,4 +1,4 @@
-FROM opencvcourses/course-1
+FROM opencvcourses/course-1:4.1.0
 
 MAINTAINER Labhesh Valechha <labheshvalechha@gmail.com>
 
